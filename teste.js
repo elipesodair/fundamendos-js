@@ -1,11 +1,8 @@
-const forma = "quadrado";
-const altura = 5;
-const comprimento = 7;
-let area;
+eli
 
   if (forma === 'quadrado') {
       area = altura * comprimento;  
-  } else {
+  } else {elipesmeuMeu
       area = (altura * comprimento) / 2;    
   }
 
