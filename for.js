@@ -22,3 +22,30 @@ for (let i = 0; i < notasGerais.length; i++) {
 }
 
 console.log(media);
+
+
+
+for(let i = 0; i < 10;  i++) {
+  console.log(i);
+}
+
+
+for (let i = 1; i > 0; i--) {
+  console.log(i);
+}
+
+
+for ( let i = 100; i > 0; i--) {
+  if (i == 50) {
+    break;
+  }
+  console.log(i);
+}
+
+
+for (let i = 20; i > 0; i-- ){
+  if(i === 10){
+    continue; 
+  }
+  console.log(i);
+}
