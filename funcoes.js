@@ -46,4 +46,64 @@ function cumprimentar(){
    
    cumprimentaPessoa('Paula') // “Oi gente! Meu nome é Paula”
 
+
+
+   let subject = ' create video'
+
+   function createThink(subject) {
+       subject = 'study'
+       return subject
+   }
+
+   console.log(createThink(subject));
+   console.log(subject);
   
+
+   // function hoisting
+
+   sayMyName()
+
+   const sayMyName = function() {
+       console.log('Mayk');
+   }
+
+
+
+   // arrow function
+
+   const sayMyName = (name) => {
+       console.log(name);
+   }
+
+   sayMyName('Mayk')
+
+
+   //callback function
+
+   function sayMyName = (name) {
+    console.log('antes de execultar a funcao calback');
+
+    name()
+    console.log('estou em uma callback');
+}
+
+sayMyName(
+    () => {
+    
+        console.log('estou em uma callback');
+    }
+)
+
+//function() construtor
+
+
+function Person(name) {
+    this.name = name
+    this.walk = function() {
+        return this.name + "está andando"
+    }
+}
+const mayk = new Person("Mayk")
+const Joao = new Person ("Joao")
+console.log(mayk.walk());
+console.log(Joao.walk());

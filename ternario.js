@@ -8,3 +8,21 @@ const idadeCliente = 19;
 //}
                 //condição                   //true    //false  
 console.log(idadeCliente >= idadeMinima ? "cerveja" : "suco");
+
+let pao = true
+
+let queijo = false
+
+const niceBreakfast = pao && queijo ? 'Café top' : ' Cafe ruim'
+
+console.log(niceBreakfast);
+
+let pao = true
+
+let queijo = false
+
+const niceBreakfast = pao || queijo ? 'Café top' : ' Cafe ruim'
+
+console.log(niceBreakfast);
+
+
