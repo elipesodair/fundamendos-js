@@ -1,2 +1,3 @@
 ler phrase = "Eu quero viver o Amor"
-console.log(phrase.includes('Amor'));
+
+console.log(phrase.includes("Amor"));
